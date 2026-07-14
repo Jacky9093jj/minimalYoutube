@@ -6,13 +6,13 @@
   "permissions": ["storage"],
   "host_permissions": ["*://www.youtube.com/*", "*://youtube.com/*"],
   "action": {
-    "default_title": "minimalYoutube"
+    "default_title": "minimalYoutube",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*", "*://youtube.com/*"],
       "js": ["content.js"],
-      "css": ["styles.css"],
       "run_at": "document_idle"
     }
   ]
