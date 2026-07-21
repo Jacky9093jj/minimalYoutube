@@ -2,6 +2,14 @@
 
 Minimal YouTube is a browser extension that hides distracting parts of YouTube to give you a cleaner viewing experience.
 
+### Screenshots
+
+<div style="display:flex; gap:12px;">
+  <img src="/images/screenshot1.png" width="48%" />
+  <img src="/images/screenshot2.png" width="48%" />
+</div>
+
+
 ## Features
 
 - Hides Shorts
